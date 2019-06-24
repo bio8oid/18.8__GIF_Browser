@@ -28,7 +28,7 @@ render: function() {
              type="text"
              onChange={this.handleChange}
              onKeyUp={this.handleKeyUp}
-             placeholder="Tutaj wpisz wyszukiwaną frazę"
+             placeholder="enter phrase"
              style={styles}
              value={this.state.searchTerm}
             />
